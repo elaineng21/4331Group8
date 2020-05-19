@@ -1,0 +1,7 @@
+//Testing insert users into database
+insert into Users (FirstName,LastName,Login,Password) VALUES ('Rick','Leinecker','RickL','COP4331');
+insert into Users (FirstName,LastName,Login,Password) VALUES ('Elaine','Ng','ElaineNg','ENCOP4331');
+
+//Testing insert contacts
+insert into Contacts (FirstName,LastName, Phone, Email, UserID, CreationDate) VALUES ('Rick','Leinecker',4071234567, 'rick@knights.ucf.edu', 2, '2020-05-19');
+insert into Contacts (FirstName,LastName, Phone, Email, UserID, CreationDate) VALUES ('Nick','Meinecker',1234567890, 'meinecker@knights.ucf.edu', 2, '2020-05-19');
